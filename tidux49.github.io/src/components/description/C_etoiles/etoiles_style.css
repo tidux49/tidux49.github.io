@@ -1,0 +1,25 @@
+
+
+.etoiles {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 1%;
+
+    @media screen and (min-width: 375px) {
+        width: 196px;
+        height: 36px;
+    }
+}
+
+
+
+.full{
+    color: #FF6060;
+    height:2.15em;
+}
+
+.empty{
+    color: #E3E3E3;
+    height:2.15em;
+}

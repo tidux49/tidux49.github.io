@@ -1,0 +1,61 @@
+.liens_header{
+    margin-left: 4%;
+}
+.image_kasa{
+    margin-right: 50%;
+}
+
+.title_tags_section{
+    display: flex;
+    flex-direction: column;
+    max-width: 1240px;
+
+    @media screen and (max-width: 760px) {
+        flex-direction: column;
+      }
+
+}
+
+.location{
+    margin-top: -3%;
+}
+
+.host_etoiles_section{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1%;
+
+    @media screen and (max-width: 760px) {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+      }
+}
+
+.information{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    @media screen and (max-width: 760px) {
+        flex-direction: column;
+      }
+}
+
+.descriptif{
+  display: flex;
+  flex-direction: row;
+  gap: 6%;
+  width: 100%;
+
+  @media screen and (max-width: 760px) {
+    flex-direction: column;
+    margin-top: 2%;
+  }
+}
+
+.main_description{
+    max-width: 1240px;
+    margin: auto;
+}
+

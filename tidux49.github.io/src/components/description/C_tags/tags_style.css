@@ -1,0 +1,26 @@
+.tag{
+  background:#FF6060;
+  border-radius: 10px;
+  width: 10em;
+  height: 1.8em;
+  margin-left: 2%;
+  margin-bottom: 4%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tag p{
+  color: #FFFFFF;
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0%;
+}
+
+.tags{
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+
+}

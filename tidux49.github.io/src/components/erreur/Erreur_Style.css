@@ -1,0 +1,23 @@
+.error_container {
+	color: red;
+	display: flex;
+	flex-direction: column;
+	align-items: center;}
+
+.nombre {
+	color: red;
+	font-size: 15em;
+	font-weight: 500;
+	margin-bottom: -1%;
+}
+
+.text {
+	color: red;
+	text-align: center;
+	font-size: 36px;
+}
+
+.error_lien {
+	color: red;
+	font-size: 18px;
+}
